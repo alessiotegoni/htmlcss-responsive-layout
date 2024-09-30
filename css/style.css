@@ -7,3 +7,43 @@
   box-sizing: border-box;
   font-family: "Montserrat", "Helvetica Neue", sans-serif;
 }
+
+:root {
+    --hero-bg: #F6F5F3;
+    --header-title-color: #FF9614;
+    --primary-color: #7C69A4;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.container {
+
+}
+
+.header__title {
+    font-size: 3rem;
+    color: var(--header-title-color);
+    font-family: "Nerko One", sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.hero {
+    background-color: var(--hero-bg);
+    min-height: 90vh;
+}
+
+
+
+@media (min-width: 768px) {
+    .header__title {
+        text-align: left;
+    }
+}
